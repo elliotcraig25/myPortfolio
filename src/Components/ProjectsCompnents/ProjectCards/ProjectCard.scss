@@ -1,0 +1,63 @@
+@import '../../../variables';
+
+.card_container {
+    height: 500px;
+    width: 300px;
+
+    .card_title {
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            h1 {
+                margin: 0;
+            }
+        }
+    }
+
+    .card_image {
+        height: 30%;
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .card_description {
+        height: 50%;
+        background-color: $lightgray;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        p {
+            // border: $redborder;
+            position: absolute;
+            top: 0;
+            margin: 0;
+            padding: 15px;
+            color: #fff;
+            width: calc(100% - 30px);
+            height: 70%;
+        }
+        div {
+            height: calc(30% - 15px);
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            bottom: 0;
+
+            button {
+                width: 90px;
+                height: 30px;
+                background-color: $themeOne;
+                color: #fff;
+            }
+        }
+    }
+}

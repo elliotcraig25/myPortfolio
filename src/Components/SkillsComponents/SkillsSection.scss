@@ -1,0 +1,36 @@
+@import '../../variables';
+
+.skills_section {
+    // border-top: $redborder;
+    // border-bottom: $redborder;
+    height: 100%;
+    width: 100%;
+    
+    h1 {
+        color: $gray;
+    }
+
+    .skills_list_container {
+        // border: $redborder;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        div {
+            width: 150px;
+            // border: $blueborder;
+
+            h3 {
+                margin: 0;
+                padding: 0;
+            }
+
+            img {
+                // border: $redborder;
+                height: 150px;
+                width: 150px;
+                margin-top: 25px;
+            }
+        }
+    }
+}
