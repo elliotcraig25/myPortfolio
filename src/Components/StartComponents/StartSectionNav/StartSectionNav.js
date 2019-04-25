@@ -1,6 +1,8 @@
 import React from 'react';
 import './StartSectionNav.scss';
 
+// import {NavLink} from 'react-router-dom';
+
 const StartSectionNav = () => {
     return (
         <div className='start_section_nav'>
