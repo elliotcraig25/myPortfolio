@@ -9,7 +9,7 @@ import text from '../../assets/Text/text';
 const ProjectSection = () => {
     return (
         <div className='project_section'>
-            <h1>PROJECTS</h1>
+            <h1>MY PROJECTS</h1>
             <div className='container_of_cards'>
                 <ProjectCard
                     project='CLASS CAST'
